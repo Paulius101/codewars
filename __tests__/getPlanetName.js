@@ -24,4 +24,7 @@ function getPlanetName(id){
 
 test ('teisingi planetu pavadinimai', () => {
     expect(getPlanetName(2)).toBe('Venus')
+    expect(getPlanetName(2)).toBe('Earth')
+    expect(getPlanetName(2)).toBe('Jupiter')
+
 })
