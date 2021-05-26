@@ -1,3 +1,0 @@
-var summation = function (num) {
-
-}
