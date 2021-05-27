@@ -1,24 +1,21 @@
 function getDrinkByProfession(param) {
-    var convertedName;
-    var formated = param[0].toUpperCase();
-    var formated1 = formated.slice(1).toLowerCase();
-    switch (param) {
-        case 'Jabroni':
-            convertedName = `Patron Trquila`;
+    switch (param.toLowerCase()) {
+        case 'jabroni':
+            convertedName = `Patron Tequila`;
             break;
-        case 'School Counselor':
+        case 'school counselor':
             convertedName = `Anything with Alcohol`;
             break;
-        case 'Programmer':
+        case 'programmer':
             convertedName = `Hipster Craft Beer`;
             break;
-        case 'Bike Gang Member':
+        case 'bike gang member':
             convertedName = `Moonshine`;
             break;
-        case 'Politician':
+        case 'politician':
             convertedName = `Your tax dollars`;
             break;
-        case 'Rapper':
+        case 'rapper':
             convertedName = `Cristal`;
             break;
 
